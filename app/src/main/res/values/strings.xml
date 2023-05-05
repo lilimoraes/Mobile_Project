@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Mobile Apps 1</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sig_up">Sig Up</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="user_icon">user_icon</string>
 </resources>
