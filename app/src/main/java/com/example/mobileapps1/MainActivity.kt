@@ -13,6 +13,7 @@ import com.example.mobileapps1.models.Auth
 import com.example.mobileapps1.models.Token
 import com.google.gson.Gson
 import okhttp3.*
+import okhttp3.Request
 import okhttp3.RequestBody.Companion.toRequestBody
 import java.io.IOException
 
@@ -32,17 +33,12 @@ class MainActivity : AppCompatActivity() {
             val usernameString = username.text.toString()
             val passwordString = password.text.toString()
             val auth = Auth(usernameString, passwordString)
-            val requestString = """ {
-                    "username": "$usernameString",
-                    "password": "$passwordString"
-                    } """.trimIndent()
-            Log.i("MAIN_ACT", "Request Body: $requestString")
-
-                val request = Request.Builder()
+            val request = getTokenAttachedRequestBuilder()
                 .url("https://fakestoreapi.com/auth/login")
                 .post(gson.toJson(auth).toRequestBody())
                 .header("Content-Type", "application/json")
                 .build()
+
 
             client.newCall(request).enqueue(object : Callback {
                 override fun onFailure(call: Call, e: IOException) {
@@ -72,5 +68,16 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
 
         }
+
+
+    }
+
+    private fun getTokenAttachedRequestBuilder(): Request.Builder {
+        val token = "YourShared preferences code"
+        val requestBuilder = Request.Builder()
+        if (token != "")
+            return requestBuilder.header("Authorization", "Bearer $token")
+        else return requestBuilder
+
     }
 }
