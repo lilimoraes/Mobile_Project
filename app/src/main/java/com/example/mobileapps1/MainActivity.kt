@@ -9,6 +9,8 @@ import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.example.mobileapps1.models.Auth
 import com.example.mobileapps1.models.Token
 import com.google.gson.Gson
@@ -68,8 +70,6 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
 
         }
-
-
     }
 
     private fun getTokenAttachedRequestBuilder(): Request.Builder {
