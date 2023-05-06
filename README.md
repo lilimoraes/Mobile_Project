@@ -6,10 +6,10 @@
 
 ## Requirement Checklist
 
-- [ ] 1. Authentication
-  - [ ] 1.1. Allow User to Signup
-  - [ ] 1.2. Log In using username and password
-  - [ ] 1.3. Store userID once logged in to keep the user logged in (even after restarting the app)
+- [X] 1. Authentication
+  - [X] 1.1. Allow User to Signup
+  - [X] 1.2. Log In using username and password
+  - [X] 1.3. Store userID once logged in to keep the user logged in (even after restarting the app)
 - [ ] 2. Product Listing
   - [ ] 2.1. List Product Categories
   - [ ] 2.2. On clicking a Category, list Products in that Category
@@ -50,7 +50,7 @@ Furthermore, the Android platform is constantly evolving, and keeping up with th
 
 In conclusion, creating an Android project with Kotlin can be a challenging task for beginners due to the setup process, the complexity of the components involved, the learning curve of Kotlin programming language, and the constant evolution of the Android platform.  
 
-[Link]([https://example.org](https://dorsetdemo-my.sharepoint.com/:v:/g/personal/24064_student_dorset-college_ie/EVnLAeDUo-BPi0FUEQxk5bcBtrcyBRdWbQ2kidt8bBN9aw?e=BUz18Q))
+[Link]((https://dorsetdemo-my.sharepoint.com/:v:/g/personal/24064_student_dorset-college_ie/EVnLAeDUo-BPi0FUEQxk5bcBtrcyBRdWbQ2kidt8bBN9aw?e=BUz18Q))
 
 
 ## References and Credits
