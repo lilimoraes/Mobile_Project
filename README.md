@@ -1,8 +1,8 @@
 # Mobile Apps 1 Project
 
-- Student Name: Your name
-- Student ID: 123456
-- Course: Your course
+- Student Name: Lilian Moraes dos Santos
+- Student ID: 24064
+- Course: Bachelor Science in Computing
 
 ## Requirement Checklist
 
@@ -40,7 +40,18 @@ This is an optional section, feel free to remove this.
 
 ## Report
 
-A short report (300-1000 words) describing the challenges you faced, failed attempts and workarounds used, any helper or alternative libraries you have used, and what you have learned in the process. 
+Creating a project on Android Studio with Kotlin can be a challenging task for beginners. The process can be overwhelming due to the amount of complex information involved, especially if you are not familiar with the Kotlin programming language.
+
+One challenge is understanding the various components and libraries involved in Android app development. These include the activities, fragments, views, intents, and services, to mention a few. It can be difficult to understand how these components fit together and how to use them effectively.
+
+Learning the syntax and best practices of Kotlin can be a daunting task, especially for those who are new to programming despite our classes, to really understand how to create Apps using Android Studio we need more classes and practice
+
+Furthermore, the Android platform is constantly evolving, and keeping up with the latest changes and updates can be a challenge. This can make it difficult to find accurate and up-to-date information about Android development.
+
+In conclusion, creating an Android project with Kotlin can be a challenging task for beginners due to the setup process, the complexity of the components involved, the learning curve of Kotlin programming language, and the constant evolution of the Android platform.  
+
+[Link]([https://example.org](https://dorsetdemo-my.sharepoint.com/:v:/g/personal/24064_student_dorset-college_ie/EVnLAeDUo-BPi0FUEQxk5bcBtrcyBRdWbQ2kidt8bBN9aw?e=BUz18Q))
+
 
 ## References and Credits
 
